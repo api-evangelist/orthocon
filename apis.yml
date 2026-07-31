@@ -1,7 +1,28 @@
 aid: orthocon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orthocon.png
 name: Orthocon
-description: Orthocon is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Orthocon, now operating as Abyrx, is a surgical-therapeutics medical
+  device company that has built a materials-science platform focused on therapeutic
+  devices used during surgical procedures. Its portfolio centers on resorbable and
+  hemostatic bone putties for orthopedic, trauma, spine, sports medicine, cranial,
+  maxillofacial, and cardiothoracic applications, including AHBP (water-soluble hemostatic
+  bone putty), the HemaSorb family (HemaSorb, HemaSorb Apply, HemaSorb Plus with HA/beta-TCP),
+  and MONTAGE settable resorbable bone putty. The company sells directly to surgeons,
+  hospitals, and distributors and does not operate a public API, developer portal,
+  SDKs, or programmatic developer surface. This profile was surfaced as a portfolio
+  company of Canaan Partners and enriched via the API Evangelist pipeline; the honest
+  result is that there is no API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/orthocon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,32 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'Orthocon rebranded to Abyrx; orthocon.com 302-redirects to www.abyrx.com.
+  Medical device manufacturer with no public API/developer surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Medical Devices
+- Surgical Therapeutics
+- Orthopedics
+- Bone Hemostasis
+- Materials Science
+- Healthcare
 apis: []
+common:
+- type: DomainSecurity
+  url: security/orthocon-domain-security.yml
+- type: Website
+  url: https://www.abyrx.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
