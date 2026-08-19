@@ -32,7 +32,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-note: 'Orthocon rebranded to Abyrx; orthocon.com 302-redirects to www.abyrx.com.
   Medical device manufacturer with no public API/developer surface.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
